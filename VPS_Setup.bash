@@ -12,14 +12,14 @@ ipaddr6="$(hostname -I | awk '{print $2}')"
 
 # User Setable Variables
 pihole_skip_os_check=false
-intipaddr="10.0.0"
+intipaddr="172.16.0"
 intipaddr6="2607:55:55:55"
 wgport=51820
 sshport=1024
-devs="dev1 dev2 dev3"
+devs="Client1 Client2 Client3"
 # searx=true
 # custdomain=anonzackptg5.com
-# uport=5353
+uport=5353
 dpport=5354
 # cfrport=5053
 
